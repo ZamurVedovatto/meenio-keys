@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { AboutWrapper } from 'styles/About'
 
 const About = () => {
   return (
@@ -8,9 +7,9 @@ const About = () => {
         <title>Meenio | Contact</title>
         <meta name="keywords" content="about"></meta>
       </Head>
-      <AboutWrapper>
+      <div>
         contact
-      </AboutWrapper>
+      </div>
     </>
   );
 }

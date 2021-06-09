@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { useState } from 'react'
-import { AboutWrapper } from 'styles/About'
 import Modal from 'components/ModalComp'
 
 const About = () => {
@@ -12,9 +11,9 @@ const About = () => {
         <title>Meenio | About</title>
         <meta name="keywords" content="about"></meta>
       </Head>
-      <AboutWrapper>
+      <div>
         about
-      </AboutWrapper>
+      </div>
 
       {/* <Modal show={showModal} handleClose={() => setShowModal(false)}>
         <p>Modal</p>
